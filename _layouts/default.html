@@ -1,0 +1,33 @@
+---
+
+---
+
+<!DOCTYPE html>
+<html lang="en">
+  <!-- Beautiful Jekyll | MIT license | Copyright Dean Attali 2016 -->
+  {% include head.html %}
+
+  <body>
+    <main class="cv">
+      {% include header.html %}
+      <section class="flex five">
+        <div class="full five-fith-1000">
+          {% include bio.html %}
+          {% include areas_interest.html %}
+          {% include education.html %}
+          {% include work.html %}
+          {% include others.html %}
+        </div>
+      </section>
+    </main>
+
+    {% include footer.html %}
+  
+    {% include footer_scripts.html %}
+  
+  </body>
+</html>
+<div style="display: none;">
+        {% include projects.html %}
+  
+</div>

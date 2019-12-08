@@ -1,0 +1,107 @@
+html, body, main {
+    display: block;
+    color: #333;
+    background: #fff;
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    z-index: 5;
+}
+
+main.cv > section {
+    background: #fff;
+    text-align: left;
+    width: 90%;
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 80px 0 0;
+}
+
+.section {
+	margin-bottom: 1.5em;
+}
+
+.desc, .todo {
+	display: none;
+}
+
+.dInlineBlock {
+	display: inline-block;
+}
+
+.noPad {
+	padding: 0;
+}
+
+.sectionDivider {
+	color: var(--light);
+	margin-top: 0;
+	margin-bottom: 1em;
+}
+
+/* --- Bio --- */
+
+.myImg {
+	border-radius: 50%;
+	width: 9.5em;
+}
+
+#name h2 {
+	margin-right: 10px;
+}
+
+#photo {
+    display: flex;
+    align-content: center;
+    align-items: center;
+    justify-content: center;
+}
+
+#bio {
+	text-align: center;
+}
+
+/* --- Areas of Interest --- */
+
+#areas-of-interest > h3 {
+	text-align: center;
+}
+
+.interest {
+	background-color: var(--accentBackgroundColor);
+	color: var(--accentTextColor);;
+	border: solid var(--backgroundColor);
+}
+
+/* --- Education --- */
+
+#education > h3 {
+	text-align: center;
+}
+
+/* --- Work --- */
+
+#work > h3 {
+	text-align: center;
+}
+
+/* --- Others --- */
+
+#others > h3 {
+	text-align: center;
+}
+
+@media all and (min-width: 1000px) {
+	.desc, .todo { display: initial; }
+
+	#photo {
+		order: 2;
+		padding: 0;
+		align-items: baseline;
+		justify-content: end;
+	}
+
+	#bio {
+		text-align: left;
+	}
+}
