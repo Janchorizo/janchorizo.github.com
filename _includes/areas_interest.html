@@ -1,85 +1,27 @@
 <div id="areas-of-interest" class="section">
 	<h3>Areas of his interest</h3>
 	<div class="flex one two-1000">
+		{% for interest in site.data.cv.areas_of_interest %}
 		<div class="interest">
 			<span class="name">
-				<h4>Data Visualization</h4>
+				<h4>{{ interest.name }}</h4>
 			</span>
-			<span class="description"></span>
+			<span class="desc">{{ interest.desc }}</span>
 			<div class="achivements flex two-600 one-1000">
+				{% for done in interest.done %}
 				<label>
 					<input type="checkbox" checked>
-					<span class="checkable">Has done ...</span>
+					<span disabled class="checkable">{{ done }}</span>
 				</label>
-				<label>
-					<input type="checkbox" checked>
-					<span class="checkable">Has done ...</span>
-				</label>
+				{% endfor %}
+				{% for todo in interest.todo %}
 				<label class="todo">
-					<input type="checkbox">
-					<span class="checkable">Has done ...</span>
+					<input disabled type="checkbox">
+					<span class="checkable">{{ todo }}</span>
 				</label>
+				{% endfor %}
 			</div>
 		</div>
-		<div class="interest">
-			<span class="name">
-				<h4>Web Development</h4>
-			</span>
-			<span class="description"></span>
-			<div class="achivements flex two-600 one-1000">
-				<label>
-					<input type="checkbox" checked>
-					<span class="checkable">Has done ...</span>
-				</label>
-				<label>
-					<input type="checkbox" checked>
-					<span class="checkable">Has done ...</span>
-				</label>
-				<label class="todo">
-					<input type="checkbox">
-					<span class="checkable">Has done ...</span>
-				</label>
-			</div>
-		</div>
-		<div class="interest">
-			<span class="name">
-				<h4>Software Architecture</h4>
-			</span>
-			<span class="description"></span>
-			<div class="achivements flex two-600 one-1000">
-				<label>
-					<input type="checkbox" checked>
-					<span class="checkable">Has done ...</span>
-				</label>
-				<label>
-					<input type="checkbox" checked>
-					<span class="checkable">Has done ...</span>
-				</label>
-				<label class="todo">
-					<input type="checkbox">
-					<span class="checkable">Has done ...</span>
-				</label>
-			</div>
-		</div>
-		<div class="interest">
-			<span class="name">
-				<h4>Graphic Design</h4>
-			</span>
-			<span class="description"></span>
-			<div class="achivements flex two-600 one-1000">
-				<label>
-					<input type="checkbox" checked>
-					<span class="checkable">Has done ...</span>
-				</label>
-				<label>
-					<input type="checkbox" checked>
-					<span class="checkable">Has done ...</span>
-				</label>
-				<label class="todo">
-					<input type="checkbox">
-					<span class="checkable">Has done ...</span>
-				</label>
-			</div>
-		</div>
+		{% endfor %}
 	</div>
 </div>

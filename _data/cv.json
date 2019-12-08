@@ -1,0 +1,44 @@
+{
+    "name": "Alejandro",
+    "surname": "Rodríguez Díaz",
+    "email": "jancho@usal.es",
+    "areas_of_interest": [
+        {
+            "name": "Data Visualization",
+            "desc": "A cross-road for my greatest passions.",
+            "done": [
+                "Create a plugin for the Grafana vis platform.",
+                "Implemented interactive visualizations for diverse topics such as sports and Digital Humanities."
+            ],
+            "todo": [
+                "Create a plugin for the D3.js library.",
+                "Publish a story-telling visualization on a digital newspaper."
+            ],
+        },
+        {
+            "name": "Web Development",
+            "desc": "I like desigining, implementing and deploying web based solutions (either sites or apps).",
+            "done": [],
+            "todo": [],
+        },
+        {
+            "name": "Software Architecture and DevOps",
+            "desc": "I like the challenge of combining multiple technologies to get the best posible solution and development experience",
+            "done": [],
+            "todo": [
+                "Implement a micro front-end based solution for my own website."
+            ],
+        },
+        {
+            "name": "Graphic Design",
+            "desc": "I enjoy creating both small designs and whole brands.",
+            "done": [ 
+                "Designed merchandise for the Faculty's festivity.",
+                "Designed merchandise and redo the logo for the Faculty's delegation." 
+            ],
+            "todo": [ 
+                "Design for a well known event."
+            ],
+        },
+    ]
+}
