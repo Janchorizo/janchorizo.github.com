@@ -62,6 +62,10 @@ main.cv > section {
 	text-align: center;
 }
 
+#contact {
+	font-size: .9em;
+}
+
 /* --- Areas of Interest --- */
 
 #areas-of-interest > h3 {
