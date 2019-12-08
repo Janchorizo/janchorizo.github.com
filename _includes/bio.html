@@ -4,18 +4,18 @@
 	</div>
 	<div class="flex two noPad">
 		<span id="name" class="full">
-			<h2 class="dInlineBlock noPad">Alejandro</h2>
-			<h3 class="dInlineBlock noPad">Rodríguez Díaz</h3>
+			<h2 class="dInlineBlock noPad">{{ site.data.cv.name }}</h2>
+			<h3 class="dInlineBlock noPad">{{ site.data.cv.surname }}</h3>
 		</span>
 		<span class="full">
-			<h4 class="dInlineBlock noPad">Computer Engineer Graduate</h4>
+			<h4 class="dInlineBlock noPad">{{ site.data.cv.status }}</h4>
 		</span>
 		<span class="full">
-			jancho@usal.es
+			{{ site.data.cv.email }}
 		</span>
 		<span class="full">
 			<p>
-				Software development and graphic design enthusiast.
+				{{ site.data.cv.catch_phrase }}
 			</p>
 		</span>
 	</div>
