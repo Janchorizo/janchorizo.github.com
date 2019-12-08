@@ -2,6 +2,54 @@
     "name": "Alejandro",
     "surname": "Rodríguez Díaz",
     "email": "jancho@usal.es",
+    "catch_phrase": "Software development and graphic design enthusiast.",
+    "education": [
+        {
+            "date": "",
+            "name": "Bilingual Primary and Secundary School",
+            "info": ""
+        },
+        {
+            "date": "",
+            "name": "Cambridge Exams for convalidation Bilingual Obligatory Studies",
+            "info": ""
+        },
+        {
+            "date": "",
+            "name": "B1 Title for the English language",
+            "info": ""
+        },
+        {
+            "date": "",
+            "name": "Undergraduate Degree on Computer Science",
+            "info": "University of Salamanca"
+        },
+        {
+            "date": "",
+            "name": "Master Degree on Inteligent Systems",
+            "info": "University of Salamanca"
+        },
+    ],
+    "work_experience": [
+        {
+            "date": "",
+            "position": "Informatic Technician",
+            "place": "MylTintas Salamanca",
+            "desc": ""
+        },
+        {
+            "date": "",
+            "position": "Technical Research Assistant",
+            "place": "VisUSAL Research Group",
+            "desc": ""
+        },
+        {
+            "date": "",
+            "position": "Researcher",
+            "place": "VisUSAL Research Group",
+            "desc": ""
+        },
+    ],
     "areas_of_interest": [
         {
             "name": "Data Visualization",
