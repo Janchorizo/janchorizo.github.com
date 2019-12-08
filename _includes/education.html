@@ -2,14 +2,16 @@
 	<h3>Education</h3>
 	<hr class="sectionDivider"/>
 	<div class="flex one">
-		<div class="education flex one five-600">
-			<span class="date">
-				September, 2016
-			</span>
-			<div class="four-fifth">
-				<h4 class="noPad">Computer Engineer Undergraduate</h4>
-				<h5>University of Salamanca</h5>
+		{% for education in site.data.cv.education %}
+			<div class="education flex one five-600">
+				<span class="date">
+					{{ education.date }}
+				</span>
+				<div class="four-fifth">
+					<h4 class="noPad">{{ education.name }}</h4>
+					<h5>{{ education.info }}</h5>
+				</div>
 			</div>
-		</div>
+		{% endfor %}
 	</div>
 </div>
