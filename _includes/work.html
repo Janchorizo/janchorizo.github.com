@@ -2,17 +2,19 @@
 	<h3>Work Experience</h3>
 	<hr class="sectionDivider"/>
 	<div class="flex one">
-		<div class="education flex one five-600">
-			<span class="date">
-				September, 2016
-			</span>
-			<div class="four-fifth">
-				<h4 class="noPad">Informatic Technician</h4>
-				<h5>MylTintas Salamanca</h5>
-				<span class="desc">
-					I was
+		{% for work in site.data.cv.work_experience %}
+			<div class="work flex one five-600">
+				<span class="date">
+					{{ work.date }}
 				</span>
+				<div class="four-fifth">
+					<h4 class="noPad">{{ work.name }}</h4>
+					<h5>{{ work.place }}</h5>
+					<span class="desc">
+					{{ work.desc }}
+				</span>
+				</div>
 			</div>
-		</div>
+		{% endfor %}
 	</div>
 </div>
