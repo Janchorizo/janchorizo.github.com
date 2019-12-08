@@ -1,13 +1,15 @@
-main {
+body {
 	--black: #000;
 	--dark: #0c1821;
 	--light: #f4eef1;
+	--verylight: #eae7e778;
 	--primary: #1b2a41;
 	--secundary: #324a5f;
 }
 
-main {
-	--backgroundColor: white;
+body {
+	--pageBackgroundColor: var(--verylight);
+	--mainBackgroundColor: white;
 	--accentBackgroundColor: var(--light);
 	--accentTextColor: var(--primary);
 }
