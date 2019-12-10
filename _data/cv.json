@@ -8,48 +8,48 @@
     "catch_phrase": "Software development and graphic design enthusiast.",
     "education": [
         {
-            "date": "January, 2018",
-            "name": "Bilingual Primary and Secundary School",
-            "info": ""
-        },
-        {
-            "date": "January, 2018",
-            "name": "Cambridge Exams for convalidation Bilingual Obligatory Studies",
-            "info": ""
-        },
-        {
-            "date": "January, 2018",
-            "name": "B1 Title for the English language",
-            "info": ""
-        },
-        {
-            "date": "January, 2018",
-            "name": "Undergraduate Degree on Computer Science",
-            "info": "University of Salamanca"
-        },
-        {
-            "date": "January, 2018",
+            "date": "July, 2019",
             "name": "Master Degree on Inteligent Systems",
             "info": "University of Salamanca"
+        },
+        {
+            "date": "June, 2018",
+            "name": "Bachellor Degree on Computer Science",
+            "info": "University of Salamanca"
+        },
+        {
+            "date": "June, 2013",
+            "name": "Intermediate English Language Certificate (B1)",
+            "info": "Escuela Oficial de Idiomas de Salamanca"
+        },
+        {
+            "date": "June, 2012",
+            "name": "MEC I IGCSE by the British Council",
+            "info": "University of Cambridge Examinations"
+        },
+        {
+            "date": "",
+            "name": "Bilingual Primary and Secundary School",
+            "info": "Colegio de Educación Primaria San Mateo, IES Francisco Salinas"
         },
     ],
     "work_experience": [
         {
-            "date": "January, 2018",
-            "position": "Informatic Technician",
-            "place": "MylTintas Salamanca",
+            "date": "October, 2019 to present",
+            "position": "Researcher",
+            "place": "VisUSAL Research Group",
             "desc": ""
         },
         {
-            "date": "January, 2018",
+            "date": "September, 2018 to july, 2019",
             "position": "Technical Research Assistant",
             "place": "VisUSAL Research Group",
             "desc": ""
         },
         {
-            "date": "January, 2018",
-            "position": "Researcher",
-            "place": "VisUSAL Research Group",
+            "date": "June, 2015 to September, 2015",
+            "position": "Informatic Assistant",
+            "place": "MylTintas Salamanca",
             "desc": ""
         },
     ],
