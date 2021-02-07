@@ -192,6 +192,12 @@ section{
 
 @media only screen and (max-width: 480px) {
 	#me{
-		zoom: 85%;
+		zoom: 75%;
+	}
+}
+
+@media only screen and (max-width: 300px) {
+	#me{
+		zoom: 65%;
 	}
 }
