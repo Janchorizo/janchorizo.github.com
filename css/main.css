@@ -189,3 +189,9 @@ section{
 	color: darkslategrey;
 	text-decoration: underline;
 }
+
+@media only screen and (max-width: 480px) {
+	#me{
+		zoom: 180%;
+	}
+}
