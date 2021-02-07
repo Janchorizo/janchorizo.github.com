@@ -5,340 +5,41 @@
 <link href="/css/picnic.min.css" rel="stylesheet">
 <link href="/css/theme.css" rel="stylesheet">
 <link href="/css/main.css" rel="stylesheet">
+<script type="text/javascript" src="/js/content.js"></script>
 
   <body>
     <section id="me">
-      <div id="lang" class="diamond">
-        <a href="#">Español</a>
-        <hr/>
-        <a href="#">Inglés</a>
-      </div>
-      <div id="photo" class="diamond">
-        <div id="img"></div>
-      </div>
-      <div id="desc">
-        <ul>
-          <li>Ingeniero informático</li>
-          <li>Máster en Sistemas Inteligentes</li>
-        </ul>
-      </div>
-      <div id="main" class="diamond">
-        <div id="projects" class="triangle">
-          <a href="#"><span>Mis ⟶</span><span>proyectos</span></a>
+      <div id="top-row" class="flex">
+        <div id="lang">
+          <div class="links">
+            <a href="#">Español</a>
+            <hr/>
+            <a href="#">English</a>
+          </div>
+          <div class="bg"></div>
+        </div>
+        <div id="photo">
+          <div id="img"></div>
+        </div>
+        <div id="desc">
+          <div>
+            <span>Ingeniero Informático</span>
+            <br/>
+            <span>Máster en Sistemas Inteligentes</span>
+          </div>
         </div>
       </div>
-      <div id="links">
-        <a href="#">Mi currículum</a>
-        <a href="#">Estoy en Github ...</a>
-        <a href="#">... y en BuyMeACoffee</a>
-        <a href="#">jancho@usal.es</a>
+      <div id="main">
+        <div class="content">
+        </div>
+        <div id="main-toggle">
+          <a href="#"><span>Mis ⟶</span><span>proyectos</span></a>
+        </div>
+        <div class="bg"></div>
       </div>
-    </section>  
+      <div id="links">
+        
+      </div>
+    </section>
   </body>
 </html>
-<div style="display: none;">
-        <div class="row">
-	<div class="column">
-		<h2>bio</h2>
-	</div>
-	<div class="column">.column</div>
-	<div class="column">.column</div>
-	<div class="column">.column</div>
-</div>
-        <main class="cv">
-          
-          <section class="flex five">
-            <div class="full five-fith-1000">
-              <div id="bio" class="flex one two-1000">
-	<div id="photo" class="noPad">
-		<img class="myImg" src="/img/me.png">
-	</div>
-	<div class="flex two noPad">
-		<span id="name" class="full">
-			<h2 class="dInlineBlock noPad">Alejandro</h2>
-			<h3 class="dInlineBlock noPad">Rodríguez Díaz</h3>
-		</span>
-		<span class="full">
-			<h4 class="dInlineBlock noPad">Computer Engineer Graduate</h4>
-		</span>
-		<span class="full" id="contact">
-			Github : <a href="https://github.com/Janchorizo">Janchorizo</a> 
-			Email : <a href="mailto:jancho@usal.es">jancho@usal.es</a>
-		</span>
-		<span class="full">
-			<p>
-				Software development and graphic design enthusiast.
-			</p>
-		</span>
-	</div>
-</div>
-              <div id="areas-of-interest" class="section">
-	<h3>Areas of his interest</h3>
-	<div class="flex one two-1000">
-		
-		<div class="interest">
-			<span class="name">
-				<h4>Data Visualization</h4>
-			</span>
-			<span class="desc">A cross-road for my greatest passions.</span>
-			<div class="achivements flex two-600 one-1000">
-				
-				<label>
-					<input type="checkbox" checked>
-					<span disabled class="checkable">Create a plugin for the Grafana vis platform.</span>
-				</label>
-				
-				<label>
-					<input type="checkbox" checked>
-					<span disabled class="checkable">Implemented interactive visualizations for diverse topics such as sports and Digital Humanities.</span>
-				</label>
-				
-				
-				<label class="todo">
-					<input disabled type="checkbox">
-					<span class="checkable">Create a plugin for the D3.js library.</span>
-				</label>
-				
-				<label class="todo">
-					<input disabled type="checkbox">
-					<span class="checkable">Publish a story-telling visualization on a digital newspaper.</span>
-				</label>
-				
-			</div>
-		</div>
-		
-		<div class="interest">
-			<span class="name">
-				<h4>Web Development</h4>
-			</span>
-			<span class="desc">I like desigining, implementing and deploying web based solutions (either sites or apps).</span>
-			<div class="achivements flex two-600 one-1000">
-				
-				
-			</div>
-		</div>
-		
-		<div class="interest">
-			<span class="name">
-				<h4>Software Architecture and DevOps</h4>
-			</span>
-			<span class="desc">I like the challenge of combining multiple technologies to get the best posible solution and development experience</span>
-			<div class="achivements flex two-600 one-1000">
-				
-				
-				<label class="todo">
-					<input disabled type="checkbox">
-					<span class="checkable">Implement a micro front-end based solution for my own website.</span>
-				</label>
-				
-			</div>
-		</div>
-		
-		<div class="interest">
-			<span class="name">
-				<h4>Graphic Design</h4>
-			</span>
-			<span class="desc">I enjoy creating both small designs and whole brands.</span>
-			<div class="achivements flex two-600 one-1000">
-				
-				<label>
-					<input type="checkbox" checked>
-					<span disabled class="checkable">Designed merchandise for the Faculty's festivity.</span>
-				</label>
-				
-				<label>
-					<input type="checkbox" checked>
-					<span disabled class="checkable">Designed merchandise and redo the logo for the Faculty's delegation.</span>
-				</label>
-				
-				
-				<label class="todo">
-					<input disabled type="checkbox">
-					<span class="checkable">Design for a well known event.</span>
-				</label>
-				
-			</div>
-		</div>
-		
-	</div>
-</div>
-              <div id="education" class="section">
-	<h3>Education</h3>
-	<hr class="sectionDivider"/>
-	<div class="flex one">
-		
-			<div class="education flex one five-600">
-				<span class="date">
-					July, 2019
-				</span>
-				<div class="four-fifth">
-					<h4 class="noPad">Master Degree on Inteligent Systems</h4>
-					<h5>University of Salamanca</h5>
-				</div>
-			</div>
-		
-			<div class="education flex one five-600">
-				<span class="date">
-					June, 2018
-				</span>
-				<div class="four-fifth">
-					<h4 class="noPad">Bachellor Degree on Computer Science</h4>
-					<h5>University of Salamanca</h5>
-				</div>
-			</div>
-		
-			<div class="education flex one five-600">
-				<span class="date">
-					June, 2013
-				</span>
-				<div class="four-fifth">
-					<h4 class="noPad">Intermediate English Language Certificate (B1)</h4>
-					<h5>Escuela Oficial de Idiomas de Salamanca</h5>
-				</div>
-			</div>
-		
-			<div class="education flex one five-600">
-				<span class="date">
-					June, 2012
-				</span>
-				<div class="four-fifth">
-					<h4 class="noPad">MEC I IGCSE by the British Council</h4>
-					<h5>University of Cambridge Examinations</h5>
-				</div>
-			</div>
-		
-			<div class="education flex one five-600">
-				<span class="date">
-					
-				</span>
-				<div class="four-fifth">
-					<h4 class="noPad">Bilingual Primary and Secundary School</h4>
-					<h5>Colegio de Educación Primaria San Mateo, IES Francisco Salinas</h5>
-				</div>
-			</div>
-		
-	</div>
-</div>
-              <div id="work" class="section">
-	<h3>Work Experience</h3>
-	<hr class="sectionDivider"/>
-	<div class="flex one">
-		
-			<div class="work flex one five-600">
-				<span class="date">
-					October, 2019 to present
-				</span>
-				<div class="four-fifth">
-					<h4 class="noPad">Researcher</h4>
-					<h5>VisUSAL Research Group</h5>
-					<span class="desc">
-					
-				</span>
-				</div>
-			</div>
-		
-			<div class="work flex one five-600">
-				<span class="date">
-					September, 2018 to july, 2019
-				</span>
-				<div class="four-fifth">
-					<h4 class="noPad">Technical Research Assistant</h4>
-					<h5>VisUSAL Research Group</h5>
-					<span class="desc">
-					
-				</span>
-				</div>
-			</div>
-		
-			<div class="work flex one five-600">
-				<span class="date">
-					June, 2015 to September, 2015
-				</span>
-				<div class="four-fifth">
-					<h4 class="noPad">Informatic Assistant</h4>
-					<h5>MylTintas Salamanca</h5>
-					<span class="desc">
-					
-				</span>
-				</div>
-			</div>
-		
-	</div>
-</div>
-              <div id="others" class="section">
-	<h3>Other things I have done</h3>
-	<hr class="sectionDivider"/>
-	<div class="flex one">
-		<div class="education flex one five-600">
-			<span class="date">
-				March 16th, 2018
-			</span>
-			<div class="four-fifth">
-				<h4 class="noPad">GeekUSAL 1st Edition </h4>
-				<h5><a href="https://sites.google.com/usal.es/geekusal">https://sites.google.com/usal.es/geekusal</a></h5>
-				<span class="desc">
-					I was
-				</span>
-			</div>
-		</div>
-		<div class="education flex one five-600">
-			<span class="date">
-				October 3-7th, 2018
-			</span>
-			<div class="four-fifth">
-				<h4 class="noPad">XLIX Meeting of RITSI (Reunión de estudiantes de Ingenierías Técnicas y Superiores en Informática)</h4>
-				<h5><a href="https://asambleas.ritsi.org/xlix/">https://asambleas.ritsi.org/xlix/</a></h5>
-				<span class="desc">
-					I was
-				</span>
-			</div>
-		</div>
-		<div class="education flex one five-600">
-			<span class="date">
-				March 21st, 2019
-			</span>
-			<div class="four-fifth">
-				<h4 class="noPad">GeekUSAL 2nd Edition</h4>
-				<h5><a href="https://sites.google.com/usal.es/geekusal">https://sites.google.com/usal.es/geekusal</a></h5>
-				<span class="desc">
-					I was
-				</span>
-			</div>
-		</div>
-		<div class="education flex one five-600">
-			<span class="date">
-				May 9th, 2019
-			</span>
-			<div class="four-fifth">
-				<h4 class="noPad">PyData Salamanca "Data Pipelines with Luigi (not Mario)"</h4>
-				<h5><a href="https://www.meetup.com/PyData-Salamanca/events/260540624/">https://www.meetup.com/PyData-Salamanca/events/260540624/</a></h5>
-				<span class="desc">
-					I was
-				</span>
-			</div>
-		</div>
-		<div class="education flex one five-600">
-			<span class="date">
-				November, 2019
-			</span>
-			<div class="four-fifth">
-				<h4 class="noPad">2nd Place in the Hackathon "La España Vacía" organized by HP SCDS</h4>
-				<h5><a href="https://www.leon7dias.com/2019/11/13/hp-pone-en-marcha-su-hackathon-para-llenar-de-innovacion-y-tecnologia-la-espana-vacia/">
-				See an article on the event
-				</a></h5>
-				<span class="desc">
-					I was
-				</span>
-			</div>
-		</div>
-	</div>
-</div>
-
-            </div>
-          </section>
-        </main>
-    
-        
-      
-        
-</div>

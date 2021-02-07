@@ -1,209 +1,161 @@
+body, html{width: 100%; height: 100%; margin: 0; padding: 0;}
 body{
-	overflow-y: hide;
-	background-color: #FFFAFF;
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	width: 100vw;
-	height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
-section{
-	display: block;
+#top-row{position: relative;}
+#me{
+  display: block;
+  width: 100%;
+  height: 100%;
+  max-width: 350px;
+  max-height: 600px;
+  border: solid 1px red;
+  position: relative;
 }
-.diamond {
-	width: 0;
-	height: 0;
-	border: 50px solid transparent;
-	border-bottom-color: red;
-	position: relative;
-	top: -50px;
-}
-.triangle {
-	width: 0;
-	height: 0;
-	border-bottom: 100px solid red;
-	border-left: 100px solid transparent;
-}
-.diamond:after {
-	content: '';
-	z-index: -5;
-	position: absolute;
-	left: -50px;
-	top: 50px;
-	width: 0;
-	height: 0;
-	border: 50px solid transparent;
-	border-top-color: red;
-}
-/* DIAMOND SIZING */
+section > div{border: solid 0px slategray;}
+section > div > div{border: solid 0px slategray;}
 #photo{
-	border-width: 50px;
-	top: -50px;
+  margin-left: auto;
+  width: 8em;
+  height: 12em;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
 }
-#photo:after {
-	left: -50px;
-	top: 50px;
-	border-width: 50px;
+#img{
+  position: absolute;
+  bottom: 1em;
+  left: -.5em;
+  width: 8em;
+  height: 8em;
+  transform: rotate(-45deg);
+  overflow: hidden;
 }
-#main{
-	border-width: 10em;
-	top: -10em;
-	border-bottom-color: #495867;
-}
-#main:after {
-	left: -10em;
-	top: 10em;
-	border-width: 10em;
-	border-top-color: #495867;
-	z-index: -1;
-}
-#photo{
-	border-width: 7em;
-	top: -7em;
-	border-bottom-color: #495867;
-}
-#photo:after {
-	left: -7em;
-	top: 7em;
-	border-width: 7em;
-	border-top-color: #495867;
-}
-#lang{
-	border-width: 60px;
-	top: -60px;
-	border-bottom-color: #efefef;
-}
-#lang:after {
-	left: -60px;
-	top: 60px;
-	border-width: 60px;
-	border-top-color: #efefef;
-}
-#projects{
-	border-bottom-width: 120px;
-	border-bottom-color: #e5ecf6;
-	border-left-width: 120px;
-}
-/* END DIAMOND SIZING */
-#me{position: relative;}
-#main{
-	display: block;
-}
-#photo{
-	position: absolute;
-	right: -1em;
-	top: -12em;
-}
-#photo #img{
-	position: absolute;
-    top: 2em;
-    left: -5em;
-    display: block;
-    width: 10em;
-    height: 10em;
-    transform: rotate(-45deg);
-    z-index: 3;
-    position: relative;
-	overflow: hidden;
-	background-color: white;
-}
-#photo #img::before{
-	content: '';
-    position: absolute;
-    top: -3em;
-    left: -2em;
-    display: block;
-    width: 15em;
-    height: 15em;
-    transform: rotate(45deg);
-    background-image: url(/img/me.png);
-    background-size: contain;
+#img::before{
+  content: '';
+  position: absolute;
+  top: -3em;
+  left: -3em;
+  display: block;
+  width: 14em;
+  height: 14em;
+  transform: rotate(45deg);
+  background-image: url("/img/me.png");
+  background-size: contain;
 	z-index: 3;
 	opacity: .8;
 }
+#lang{
+  margin-top: 7em;
+  margin-right: 1em;
+  display: flex;
+  width: 5em;
+  hegiht: 5em;
+  position: relative;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+#lang .bg{
+  display: block;
+  width: 5em;
+  height: 5em;
+  background-color: #efefef;
+  position: absolute;
+  transform-origin: center;
+  transform: rotate(-45deg);
+  z-index: -10;
+}
 #desc{
-	position: absolute;
-	transform: translate(-10em, -3.5em) rotate(-45deg);
-	transform-origin: top right;
-	text-align: end;
+  position: absolute;
+  bottom: -2.6em;
+  left: 3.2em;
+  display: block;
+  width: 5em;
+  height: 5em;
 }
-#desc ul{
-	list-style: none;
-}
-#lang a{
-	color: grey;
-	position: absolute;
-	left: -1.8em;
-	top: 30px;
-	z-index: 1;
-}
-#lang a:nth-of-type(2){
-	left: -1.3em;
-	top: 60px;
-}
-#lang a:hover{
-	color: darkslategrey;
-	text-decoration: underline;
-}
-#lang hr{
-	width: 4em;
-	position: absolute;
-	left: -2.05em;
-	top: 50px;
-	z-index: 1;
-}
-#links{
-	z-index: 2;
-	display: flex;
-	flex-direction: column;
-	align-items: center;
-}
-#links a{
-	display: block;
-	text-align: end;
-	color: grey;
-}
-#links a:hover{
-	color: darkslategrey;
-	text-decoration: underline;
-}
-#projects{
-	z-index: 1;
-	position: absolute;
-	top: 12em;
-	right: -9em;
-}
-#projects a{
-	display: flex;
-	flex-direction: column;
-	align-items: flex-end;
-	position: relative;
-	color: grey;
-	right: 10px;
-	bottom: -3.7em;
-}
-#projects a span{
-	white-space: nowrap;
-}
-#projects a:hover{
-	color: darkslategrey;
-	text-decoration: underline;
+#desc > div{
+  text-align: end;
+  position: absolute;
+  width: max-content;
+  right: 0;
+  transform-origin: top right;
+  transform: rotate(-45deg);
 }
 
-@media only screen and (max-width: 580px) {
-	#me{
-		zoom: 85%;
-	}
+#main{
+  dislplay: block;
+  width: 350px;
+  height: 350px;
+  display: flex;
+  position: relative;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
 }
-
-@media only screen and (max-width: 480px) {
-	#me{
-		zoom: 75%;
-	}
+#main .bg{
+  display: block;
+  width: 70%;
+  height: 70%;
+  background-color: #efefef;
+  position: absolute;
+  transform-origin: center;
+  transform: rotate(-45deg);
+  z-index: -10;
+  overflow: hidden;
 }
-
-@media only screen and (max-width: 300px) {
-	#me{
-		zoom: 65%;
-	}
+#main .bg::before{
+  content: '';
+  position: absolute;
+  top: -3em;
+  left: -4em;
+  width: 400px;
+  height: 400px;
+  transform: rotate(45deg);
+  background-size: contain;
+	z-index: 3;
+	opacity: .8;
+}
+#main .bg.b1::before{
+	background-image: url("/img/bg-1.jpg");
+}
+#main .bg.b2::before{
+	background-image: url("/img/bg-2.jpg");
+}
+#main .bg.b3::before{
+	background-image: url("/img/bg-3.jpg");
+}
+#main .bg.b4::before{
+	background-image: url("/img/bg-4.jpg");
+}
+#main .bg.b5::before{
+	background-image: url("/img/bg-5.jpg");
+}
+#main.projects .bg::before{
+  content: none;
+}
+#main-toggle{
+  bottom: 1em;
+  right: 1em;
+  position: absolute;
+  padding: 20px 0 0 20px;
+}
+#main-toggle::before{
+  content: '';
+  z-index: -4;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  width: 0;
+  height: 0;
+  border-bottom: 6.5em solid #e5ecf6;
+  border-left: 6.5em solid transparent;
+}
+#main-toggle a{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
 }

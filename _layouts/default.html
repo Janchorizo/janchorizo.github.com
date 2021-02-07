@@ -9,50 +9,37 @@
 
   <body>
     <section id="me">
-      <div id="lang" class="diamond">
-        <a href="#">Español</a>
-        <hr/>
-        <a href="#">Inglés</a>
-      </div>
-      <div id="photo" class="diamond">
-        <div id="img"></div>
-      </div>
-      <div id="desc">
-        <ul>
-          <li>Ingeniero informático</li>
-          <li>Máster en Sistemas Inteligentes</li>
-        </ul>
-      </div>
-      <div id="main" class="diamond">
-        <div id="projects" class="triangle">
-          <a href="#"><span>Mis ⟶</span><span>proyectos</span></a>
+      <div id="top-row" class="flex">
+        <div id="lang">
+          <div class="links">
+            <a href="#">Español</a>
+            <hr/>
+            <a href="#">English</a>
+          </div>
+          <div class="bg"></div>
+        </div>
+        <div id="photo">
+          <div id="img"></div>
+        </div>
+        <div id="desc">
+          <div>
+            <span>Ingeniero Informático</span>
+            <br/>
+            <span>Máster en Sistemas Inteligentes</span>
+          </div>
         </div>
       </div>
-      <div id="links">
-        <a href="#">Mi currículum</a>
-        <a href="#">Estoy en Github ...</a>
-        <a href="#">... y en BuyMeACoffee</a>
-        <a href="#">jancho@usal.es</a>
+      <div id="main">
+        <div class="content">
+        </div>
+        <div id="main-toggle">
+          <a href="#"><span>Mis ⟶</span><span>proyectos</span></a>
+        </div>
+        <div class="bg"></div>
       </div>
-    </section>  
+      <div id="links">
+        
+      </div>
+    </section>
   </body>
 </html>
-<div style="display: none;">
-        {% include projects.html %}
-        <main class="cv">
-          {% include header.html %}
-          <section class="flex five">
-            <div class="full five-fith-1000">
-              {% include bio.html %}
-              {% include areas_interest.html %}
-              {% include education.html %}
-              {% include work.html %}
-              {% include others.html %}
-            </div>
-          </section>
-        </main>
-    
-        {% include footer.html %}
-      
-        {% include footer_scripts.html %}
-</div>
