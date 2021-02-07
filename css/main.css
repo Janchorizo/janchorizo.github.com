@@ -1,4 +1,4 @@
-body{
+/*body{
 	overflow-y: hide;
 	background-color: #FFFAFF;
 	display: flex;
@@ -35,7 +35,7 @@ section{
 	border: 50px solid transparent;
 	border-top-color: red;
 }
-/* DIAMOND SIZING */
+/* DIAMOND SIZING * /
 #photo{
 	border-width: 50px;
 	top: -50px;
@@ -84,7 +84,7 @@ section{
 	border-bottom-color: #e5ecf6;
 	border-left-width: 120px;
 }
-/* END DIAMOND SIZING */
+/* END DIAMOND SIZING * /
 #me{position: relative;}
 #main{
 	display: block;
@@ -206,4 +206,79 @@ section{
 	#me{
 		zoom: 65%;
 	}
+}
+*/
+body, html{width: 100%; height: 100%; margin: 0; padding: 0;}
+body{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#me{
+  display: block;
+  width: 100%;
+  height: 100%;
+  max-width: 600px;
+  max-height: 800px;
+  background-color: lightgrey;
+  position: relative;
+}
+section > div{border: solid 1px slategray;}
+#photo{
+  margin-left: auto;
+  width: 14em;
+  height: 14em;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#img{
+  width: 10em;
+  height: 10em;
+  transform: rotate(-45deg);
+  overflow: hidden;
+}
+#img::before{
+  content: '';
+  position: absolute;
+  top: -3em;
+  left: -3em;
+  display: block;
+  width: 20em;
+  height: 20em;
+  transform: rotate(45deg);
+  background-image: url("https://hdqwalls.com/wallpapers/best-nature-image.jpg");
+  background-size: contain;
+	z-index: 3;
+	opacity: .8;
+}
+#main{
+  margin-left: auto;
+  width: 100%;
+  height: 14em;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#img{
+  width: 10em;
+  height: 10em;
+  transform: rotate(-45deg);
+  overflow: hidden;
+}
+#img::before{
+  content: '';
+  position: absolute;
+  top: -3em;
+  left: -3em;
+  display: block;
+  width: 20em;
+  height: 20em;
+  transform: rotate(45deg);
+  background-image: url("https://hdqwalls.com/wallpapers/best-nature-image.jpg");
+  background-size: contain;
+	z-index: 3;
+	opacity: .8;
 }
