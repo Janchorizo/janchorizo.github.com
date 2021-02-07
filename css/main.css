@@ -4,6 +4,12 @@ body{
   align-items: center;
   justify-content: center;
 }
+h1{
+  position: absolute;
+  top: -2em;
+  font-size: 1.4em;
+  font-family: monospace;
+}
 #top-row{position: relative;}
 #me{
   display: block;
@@ -11,11 +17,23 @@ body{
   height: 100%;
   max-width: 350px;
   max-height: 600px;
-  border: solid 1px red;
+  border: solid 1px;
   position: relative;
 }
-section > div{border: solid 0px slategray;}
-section > div > div{border: solid 0px slategray;}
+#me[data-color=springgreen]{border-color: springgreen;}
+#me[data-color=red]{border-color: red;}
+#me[data-color=blue]{border-color: blue;}
+#me[data-color=blueviolet]{border-color: blueviolet;}
+#me[data-color=hotpink]{border-color: hotpink;}
+#me[data-color=yellowgreen]{border-color: yellowgreen;}
+#me[data-color=indianred]{border-color: indianred;}
+#me[data-color=springgreen] h1{color: springgreen;}
+#me[data-color=red] h1{color: red;}
+#me[data-color=blue] h1{color: blue;}
+#me[data-color=blueviolet] h1{color: blueviolet;}
+#me[data-color=hotpink] h1{color: hotpink;}
+#me[data-color=yellowgreen] h1{color: yellowgreen;}
+#me[data-color=indianred] h1{color: indianred;}
 #photo{
   margin-left: auto;
   width: 8em;
@@ -53,12 +71,13 @@ section > div > div{border: solid 0px slategray;}
   margin-right: 1em;
   display: flex;
   width: 5em;
-  hegiht: 5em;
+  height: 5em;
   position: relative;
   align-items: center;
   justify-content: center;
   text-align: center;
 }
+#lang .links{font-size: .9em;}
 #lang .bg{
   display: block;
   width: 5em;
@@ -76,6 +95,7 @@ section > div > div{border: solid 0px slategray;}
   display: block;
   width: 5em;
   height: 5em;
+  pointer-events: none;
 }
 #desc > div{
   text-align: end;
@@ -115,9 +135,9 @@ section > div > div{border: solid 0px slategray;}
   width: 400px;
   height: 400px;
   transform: rotate(45deg);
-  background-size: contain;
+  background-size: cover;
 	z-index: 3;
-	opacity: .8;
+	opacity: .65;
 }
 #main .bg.b1::before{
 	background-image: url("/img/bg-1.jpg");
@@ -155,7 +175,32 @@ section > div > div{border: solid 0px slategray;}
   border-left: 6.5em solid transparent;
 }
 #main-toggle a{
+  margin-right: 5px;
   display: flex;
   flex-direction: column;
   align-items: flex-end;
+}
+#main.projects #main-toggle a:first-of-type{
+  display: none;
+}
+#main-toggle a:nth-of-type(2){
+  display: none;
+}
+#main.projects #main-toggle a:nth-of-type(2){
+  display: initial;
+}
+#links{
+  font-size: .9em;
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  left: 5px;
+  bottom: 1px;
+}
+a {
+  color: slategrey;
+  text-decoration: underline;
+}
+a:hover {
+color: slateblue;
 }
