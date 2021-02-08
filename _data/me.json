@@ -2,94 +2,26 @@
     "name": "Alejandro",
     "surname": "Rodríguez Díaz",
     "email": "jancho@usal.es",
-    "github_user": "Janchorizo",
     "github_page": "https://github.com/Janchorizo",
-    "status": "Computer Engineer Graduate",
-    "catch_phrase": "Software development and graphic design enthusiast.",
-    "education": [
-        {
-            "date": "July, 2019",
-            "name": "Master Degree on Inteligent Systems",
-            "info": "University of Salamanca"
-        },
-        {
-            "date": "June, 2018",
-            "name": "Bachellor Degree on Computer Science",
-            "info": "University of Salamanca"
-        },
-        {
-            "date": "June, 2013",
-            "name": "Intermediate English Language Certificate (B1)",
-            "info": "Escuela Oficial de Idiomas de Salamanca"
-        },
-        {
-            "date": "June, 2012",
-            "name": "MEC I IGCSE by the British Council",
-            "info": "University of Cambridge Examinations"
-        },
-        {
-            "date": "",
-            "name": "Bilingual Primary and Secundary School",
-            "info": "Colegio de Educación Primaria San Mateo, IES Francisco Salinas"
-        },
-    ],
-    "work_experience": [
-        {
-            "date": "October, 2019 to present",
-            "position": "Researcher",
-            "place": "VisUSAL Research Group",
-            "desc": ""
-        },
-        {
-            "date": "September, 2018 to july, 2019",
-            "position": "Technical Research Assistant",
-            "place": "VisUSAL Research Group",
-            "desc": ""
-        },
-        {
-            "date": "June, 2015 to September, 2015",
-            "position": "Informatic Assistant",
-            "place": "MylTintas Salamanca",
-            "desc": ""
-        },
-    ],
-    "areas_of_interest": [
-        {
-            "name": "Data Visualization",
-            "desc": "A cross-road for my greatest passions.",
-            "done": [
-                "Create a plugin for the Grafana vis platform.",
-                "Implemented interactive visualizations for diverse topics such as sports and Digital Humanities."
-            ],
-            "todo": [
-                "Create a plugin for the D3.js library.",
-                "Publish a story-telling visualization on a digital newspaper."
-            ],
-        },
-        {
-            "name": "Web Development",
-            "desc": "I like desigining, implementing and deploying web based solutions (either sites or apps).",
-            "done": [],
-            "todo": [],
-        },
-        {
-            "name": "Software Architecture and DevOps",
-            "desc": "I like the challenge of combining multiple technologies to get the best posible solution and development experience",
-            "done": [],
-            "todo": [
-                "Implement a micro front-end based solution for my own website."
-            ],
-        },
-        {
-            "name": "Graphic Design",
-            "desc": "I enjoy creating both small designs and whole brands.",
-            "done": [ 
-                "Designed merchandise for the Faculty's festivity.",
-                "Designed merchandise and redo the logo for the Faculty's delegation." 
-            ],
-            "todo": [ 
-                "Design for a well known event."
-            ],
-        },
-    ]
+    "buymeacoffee": "https://www.buymeacoffee.com/janchorizo",
+    "es": {
+        "degree": "Ingeniero Informático",
+        "master": "Máster en SS. Inteligentes",
+        "cv_text": ["Lee aquí", "mi CV"],
+        "github_text": "Estoy en",
+        "buymeacoffee_text": "... y en",
+        "email_text": "Escríbeme a",
+        "projects_text": ["Mis", "proyectos"],
+        "return_text" : "Return"
+    },
+    "en": {
+        "degree": "Computer Engineer",
+        "master": "Máster on Inteligent Systems",
+        "cv_text": ["See here", "my CV"],
+        "github_text": "I am in",
+        "buymeacoffee_text": "... and in",
+        "email_text": "Email me at",
+        "projects_text": ["My", "projects"],
+        "return_text" : "Return"
+    }
 }
