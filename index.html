@@ -9,7 +9,7 @@ layout: default
     {{ site.data.me.email }}
 {% endcapture %}
 {% capture github_page %}
-    {{ site.data.me.github }}
+    {{ site.data.me.github_page }}
 {% endcapture %}
 {% capture buymeacoffee %}
     {{ site.data.me.buymeacoffee }}
@@ -19,6 +19,9 @@ layout: default
 {% endcapture %}
 {% capture master %}
     {{ site.data.me.es.master }}
+{% endcapture %}
+{% capture cv_file %}
+    {{ "/docs/RodríguezDíazAlejandro_CV_es.pdf" | relative_url }}
 {% endcapture %}
 {% capture cv_text_0 %}
     {{ site.data.me.es.cv_text_0 }}
@@ -52,6 +55,7 @@ layout: default
     buymeacoffee=buymeacoffee
     degree=degree
     master=master
+    cv_file=cv_file
     cv_text_0=cv_text_0
     cv_text_1=cv_text_1
     github_text=github_text
