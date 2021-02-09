@@ -1,0 +1,63 @@
+---
+title: Spannish default page
+layout: default
+---
+{% capture name %}
+    {{ site.data.me.name }}
+{% endcapture %}
+{% capture email %}
+    {{ site.data.me.email }}
+{% endcapture %}
+{% capture github_page %}
+    {{ site.data.me.github }}
+{% endcapture %}
+{% capture buymeacoffee %}
+    {{ site.data.me.buymeacoffee }}
+{% endcapture %}
+{% capture degree %}
+    {{ site.data.me.es.degree }}
+{% endcapture %}
+{% capture master %}
+    {{ site.data.me.es.master }}
+{% endcapture %}
+{% capture cv_text_0 %}
+    {{ site.data.me.es.cv_text_0 }}
+{% endcapture %}
+{% capture cv_text_1 %}
+    {{ site.data.me.es.cv_text_1 }}
+{% endcapture %}
+{% capture github_text %}
+    {{ site.data.me.es.github_text }}
+{% endcapture %}
+{% capture buymeacoffee_text %}
+    {{ site.data.me.es.buymeacoffee_text }}
+{% endcapture %}
+{% capture email_text %}
+    {{ site.data.me.es.email_text }}
+{% endcapture %}
+{% capture projects_text_0 %}
+    {{ site.data.me.es.projects_text_0 }}
+{% endcapture %}
+{% capture projects_text_1 %}
+    {{ site.data.me.es.projects_text_1 }}
+{% endcapture %}
+{% capture return_text %}
+    {{ site.data.me.es.return_text }}
+{% endcapture %}
+
+{% include content.html 
+    name=name
+    email=email
+    github_page=github_page
+    buymeacoffee=buymeacoffee
+    degree=degree
+    master=master
+    cv_text_0=cv_text_0
+    cv_text_1=cv_text_1
+    github_text=github_text
+    buymeacoffee_text=buymeacoffee_text
+    email_text=email_text
+    projects_text_0=projects_text_0
+    projects_text_1=projects_text_1
+    return_text=return_text
+%}
