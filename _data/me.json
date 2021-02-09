@@ -1,27 +1,30 @@
 {
-    "name": "Alejandro",
-    "surname": "Rodríguez Díaz",
+    "name": "Alejandro Rodríguez Díaz",
     "email": "jancho@usal.es",
     "github_page": "https://github.com/Janchorizo",
     "buymeacoffee": "https://www.buymeacoffee.com/janchorizo",
     "es": {
         "degree": "Ingeniero Informático",
         "master": "Máster en SS. Inteligentes",
-        "cv_text": ["Lee aquí", "mi CV"],
+        "cv_text_0": "Lee aquí",
+        "cv_text_1": "mi CV",
         "github_text": "Estoy en",
         "buymeacoffee_text": "... y en",
         "email_text": "Escríbeme a",
-        "projects_text": ["Mis", "proyectos"],
-        "return_text" : "Return"
+        "projects_text_0": "Mis",
+        "projects_text_1": "proyectos",
+        "return_text" : "Volver"
     },
     "en": {
         "degree": "Computer Engineer",
-        "master": "Máster on Inteligent Systems",
-        "cv_text": ["See here", "my CV"],
+        "master": "Master on Inteligent Systems",
+        "cv_text_0": "See here",
+        "cv_text_1": "my CV",
         "github_text": "I am in",
         "buymeacoffee_text": "... and in",
         "email_text": "Email me at",
-        "projects_text": ["My", "projects"],
+        "projects_text": "My",
+        "projects_text_1": "projects",
         "return_text" : "Return"
     }
 }
