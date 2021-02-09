@@ -1,0 +1,38 @@
+<section id="me" class="animate__animated animate__pulse">
+    <h1>{{ include.name }}</h1>
+    <div id="top-row" class="flex">
+    <div id="lang">
+        <div class="links">
+        <a href="/es">Español</a>
+        <hr/>
+        <a href="/en">English</a>
+        </div>
+        <div class="bg"></div>
+    </div>
+    <div id="photo">
+        <div id="img"></div>
+    </div>
+    <div id="desc">
+        <div>
+        <span>{{ include.degree }}</span>
+        <br/>
+        <span>{{ include.master }}</span>
+        </div>
+    </div>
+    </div>
+    <div id="main">
+    <div class="content">
+    </div>
+    <div id="main-toggle">
+        <a href="#"><span>{{ include.projects_text_0 }} ⟶</span><span>{{ include.projects_text_1 }}</span></a>
+        <a href="#"><span>⟵ </span><span>{{ include.return_text }}</span></a>
+    </div>
+    <div class="bg"></div>
+    </div>
+    <div id="links">
+    <span>{{ include.cv_text_0 }} <a href="">{{ include.cv_text_1 }}</a></span>
+    <span>{{ include.github_text }} <a href="{{ include.github_page }}">Github</a> ...</span>
+    <span>{{ include.buymeacoffee_text }} <a href="{{ include.buymeacoffee }}">BuyMeACoffee</a></span>
+    <span>{{ include.email_text }} <a href="{{ include.email }}">{{ include.email }}</a></span>
+    </div>
+</section>
