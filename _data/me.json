@@ -3,6 +3,7 @@
     "email": "jancho@usal.es",
     "github_page": "https://github.com/Janchorizo",
     "buymeacoffee": "https://www.buymeacoffee.com/janchorizo",
+    "project_count_text": "three",
     "es": {
         "degree": "Ingeniero Informático",
         "master": "Máster en SS. Inteligentes",
@@ -13,7 +14,27 @@
         "email_text": "Escríbeme a",
         "projects_text_0": "Mis",
         "projects_text_1": "proyectos",
-        "return_text" : "Volver"
+        "return_text" : "Volver",
+        "projects": [
+            {
+                "idx": 1,
+                "title": "GNE",
+                "description": "GNE es una herramienta para explorar imágenes de grafos creadas Graphviz.",
+                "link": "https://janchorizo.github.io/gne/"
+            },
+            {
+                "idx": 2,
+                "title": "BOExplorer",
+                "description": "Un resumen gráfico del Boletín Oficial del Estado de cada día.",
+                "link": "https://boesbot.jancho.es/"
+            },
+            {
+                "idx": 3,
+                "title": "BOEbot",
+                "description": "El Boletín Oficial del Estado en Telegram.",
+                "link": "https://t.me/boes_bot"
+            }
+        ]
     },
     "en": {
         "degree": "Computer Engineer",
@@ -25,6 +46,26 @@
         "email_text": "Email me at",
         "projects_text_0": "My",
         "projects_text_1": "projects",
-        "return_text" : "Return"
+        "return_text" : "Return",
+        "projects": [
+            {
+                "idx": 1,
+                "title": "GNE",
+                "description": "GNE is an online tool intended to facilitate the exploration of Graphviz output network graphs.",
+                "link": "https://janchorizo.github.io/gne/"
+            },
+            {
+                "idx": 2,
+                "title": "BOExplorer",
+                "description": "A visual summary of the Spannish national gazette (BOE).",
+                "link": "https://boesbot.jancho.es/"
+            },
+            {
+                "idx": 3,
+                "title": "BOEbot",
+                "description": "The Spannish national gazette (BOE) made accessible in Telegram",
+                "link": "https://t.me/boes_bot"
+            }
+        ]
     }
 }
