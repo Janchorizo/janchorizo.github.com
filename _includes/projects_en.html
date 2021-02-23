@@ -1,0 +1,25 @@
+<div id="projects">
+  <div class="tabs {{ site.data.me.project_count_text }}">
+    {% for project in site.data.me.en.projects %}
+      {% if project.idx == 1 %}
+        <input id='tab-1' type='radio' name='tabgroupB' checked />
+      {% else %}
+          <input id='tab-{{ project.idx }}' type='radio' name='tabgroupB'>
+      {% endif %}
+    {% endfor %}
+    <div class="row">
+      {% for project in site.data.me.en.projects %}
+        <div class="project">
+          <b>{{ project.title }}</b>
+          <p>{{ project.description }}</p>
+          <a target="blank" href={{ project.link }}>See the project live</a>
+        </div>
+      {% endfor %}
+    </div>
+    <div id="pagination">
+      {% for project in site.data.me.en.projects %}
+        <label class="pseudo button toggle" for="tab-{{ project.idx }}">{{ project.idx }}</label>
+      {% endfor %}
+    </div>
+  </div>
+</div>

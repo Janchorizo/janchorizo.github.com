@@ -205,3 +205,16 @@ a {
 a:hover {
 color: slateblue;
 }
+#projects{display: none;}
+#main.projects #projects{display: initial;}
+#projects #pagination{
+margin: 0 auto;
+width: 40%;
+display: flex;
+align-items: center;
+justify-content: center;
+}
+#projects .project p{
+width: calc(100% - 7em);
+margin: 0 auto;
+}
