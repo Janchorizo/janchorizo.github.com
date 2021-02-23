@@ -22,6 +22,11 @@
     </div>
     <div id="main">
     <div class="content">
+        {% if include.lang == "es" %}
+            {% include projects_es.html %}
+        {% else %}
+            {% include projects_en.html %}
+        {% endif %}
     </div>
     <div id="main-toggle">
         <a href="#"><span>{{ include.projects_text_0 }} ⟶</span><span>{{ include.projects_text_1 }}</span></a>
